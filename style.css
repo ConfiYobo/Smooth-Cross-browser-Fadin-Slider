@@ -1,0 +1,30 @@
+#revengo-slideshow {
+  height: 394px;
+  width: 894px;
+  position: relative;
+}
+@media screen and (max-width: 780px){
+    #revengo-slideshow {
+      width: 612px;
+      height: 391px;
+    }
+}
+@media screen and (max-width: 630px){
+    #revengo-slideshow {
+      width: 88%;
+      height: 384px;
+    }
+}
+@media screen and (max-width: 460px){
+    #revengo-slideshow {
+      width: 88%;
+      height: 314px;
+    }
+}
+#revengo-slideshow img{
+  position: absolute;
+  top: 10em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
